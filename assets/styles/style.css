@@ -1,0 +1,72 @@
+.container{
+    /* min-width: 80%; */
+}
+.circles__top{
+    display: flex;
+
+}
+.round{
+    /* background-color: #EC615B; */
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+.row__topboard{
+    align-items: center;
+}
+.row__header, .brand, .basket, .card__item, .card__item_subscribe, .row-title{
+    /* border: 1px dashed gray; */
+}
+
+.row__header{
+    min-height: 5vh;
+}
+.basket{
+    display: flex;
+    justify-content: end;
+}
+.btn{
+    background-color: #5222D0;
+    border-radius: 10vw;
+    color: #fff;
+    font-size: 0.7em;
+    margin-top: 0.1vh;
+    min-width: 9.4vw;
+    min-width: 3vh;
+}
+
+.main{
+    min-height: auto;
+    
+}
+
+.row-title{
+font-family: Intro, Geneva, Tahoma, serif;
+font-weight: 600;
+Font-size: 2em;
+max-height: 100px;
+padding-top: 30px;
+}
+.card-item{
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+.card-item__subscribe{
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+.card-title{
+    font-weight: 600;
+    margin-left: 11px;
+}
+.card-body__subscribe{
+    background-color: #EC615B;
+
+    /* padding: 2.5vw 2.5vw 2.5vh 2.5vw; */
+}
+
+.footer{
+    min-height: 7vh;
+    padding: 3.5vh 2vw;
+    }
